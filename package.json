@@ -1,0 +1,22 @@
+{
+  "name": "@corex-ai/sdk",
+  "version": "1.0.0",
+  "description": "Official JavaScript SDK for CoreX AI.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": { ".": { "import": "./src/index.js" } },
+  "files": ["src", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["corex","corex-ai","ai","sdk","api","javascript"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/corex-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/corex-js/issues"
+  },
+  "homepage": "https://corex-one.eu.cc"
+}
