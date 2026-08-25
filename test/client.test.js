@@ -24,7 +24,7 @@ test("CoreX chat builds the correct API request", async () => {
 
     const url = new URL(requestedUrl);
 
-    assert.equal(url.origin + url.pathname, "https://corex-one.eu.cc/api");
+    assert.equal(url.origin + url.pathname, "https://corex-one.eu.cc/api/");
     assert.equal(url.searchParams.get("a"), "مرحبا بك");
     assert.equal(url.searchParams.get("act"), "assistant");
     assert.equal(url.searchParams.get("key"), "TEST_KEY");
